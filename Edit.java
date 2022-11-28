@@ -45,13 +45,13 @@ class Edit
             headerpanelsh.setBackground(new Color(200, 200, 200));            
             
             // CREATE HEADING JLABEL
-            JLabel heading = new JLabel("VAYU PUBLIC HOSPITAL");
+            JLabel heading = new JLabel("SIMPSONS MILITARY HOSPITAL");
             Font font = new Font("Arial", Font.BOLD, 35);
             heading.setFont(font);
             heading.setForeground(new Color(0, 255, 226));            
             heading.setBounds(screenSize.width-700,40,700,45);
             
-            JLabel heading1 = new JLabel("VAYU PUBLIC HOSPITAL");
+            JLabel heading1 = new JLabel("SIMPSOMS MILITARY HOSPITAL");
             Font font1 = new Font("Arial", Font.BOLD, 35);
             heading1.setFont(font1);
             heading1.setForeground(new Color(0, 126, 112));            
