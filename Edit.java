@@ -45,8 +45,8 @@ class Edit
             headerpanelsh.setBackground(new Color(200, 200, 200));            
             
             // CREATE HEADING JLABEL
-            JLabel heading = new JLabel("SIMPSONS MILITARY HOSPITAL");
-            Font font = new Font("Garamond", Font.BOLD, 35);
+            JLabel heading = new JLabel("VAYU PUBLIC HOSPITAL");
+            Font font = new Font("Arial", Font.BOLD, 35);
             heading.setFont(font);
             heading.setForeground(new Color(0, 255, 226));            
             heading.setBounds(screenSize.width-700,40,700,45);
@@ -161,7 +161,7 @@ class Edit
                   pstmt.setInt(1, a); // set input parameter 1                  
                   ResultSet rs = pstmt.executeQuery(); // execute insert statement
                     rs.next();
-                    name = rs.getString("PName");
+                    name = rs.getString("Patient Name");
                     address = rs.getString("Address");
                     phone = rs.getString("PNumber");
                     age = rs.getString("Age");
