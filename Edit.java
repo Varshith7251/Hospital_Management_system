@@ -51,8 +51,8 @@ class Edit
             heading.setForeground(new Color(0, 255, 226));            
             heading.setBounds(screenSize.width-700,40,700,45);
             
-            JLabel heading1 = new JLabel("SIMPSONS MILITARY HOSPITAL");
-            Font font1 = new Font("Garamond", Font.BOLD, 35);
+            JLabel heading1 = new JLabel("VAYU PUBLIC HOSPITAL");
+            Font font1 = new Font("Arial", Font.BOLD, 35);
             heading1.setFont(font1);
             heading1.setForeground(new Color(0, 126, 112));            
             heading1.setBounds(screenSize.width-697,43,700,45);
