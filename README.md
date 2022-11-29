@@ -15,7 +15,3 @@ This system has a home page from where the administrator can login. On logging i
 3. Create database named `hms` and table `users` with columns `username`, `password`, table `doctors` with columns `DocName`, `Specialisation`, `Address`, `Pnumber`, table `Patients` with columns `Pname`, `Address`, `Pnumber`, `Age`, `Sex`, `Illness` and table `contactus` with columns `email`, `comments`
 4. Navigate to the project folder and run `javac HomePage.java` to compile and `java HomePage` to run the program
 
-## License
-This project is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-
-###### P.S This project is simply a proof of concept done while i was still in school/college. This project is not to be taken seriously and is not production ready.
